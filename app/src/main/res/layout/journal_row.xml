@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="8dp">
+    
+    <LinearLayout
+        android:background="#A3163503"
+        android:orientation="horizontal"
+        android:elevation="10dp"
+        android:alpha="0.8"
+        android:layout_gravity="end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/journal_row_username"
+            android:text="Dragos"
+            android:layout_weight="1"
+            android:padding="3dp"
+            android:textSize="17sp"
+            android:layout_width="wrap_content"
+            android:gravity="start"
+            android:layout_height="wrap_content"></TextView>
+        <ImageButton
+            android:src="@android:drawable/ic_menu_share"
+            android:background="@android:color/transparent"
+            android:id="@+id/journal_row_share_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></ImageButton>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/journal_image_list"
+            android:cropToPadding="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/img3"
+            android:adjustViewBounds="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ImageView>
+
+        <TextView
+            android:id="@+id/journal_title_list"
+            android:padding="10dp"
+            android:text="Title"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/journal_thought_list"
+            android:padding="10dp"
+            android:text="Thoughts"
+            android:paddingTop="15dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="15dp"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/journal_timeStamp_list"
+            android:layout_width="match_parent"
+            android:text="Date Created"
+            android:textStyle="italic"
+            android:layout_height="wrap_content"></TextView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

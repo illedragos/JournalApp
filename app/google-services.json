@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997504369203",
+    "project_id": "abstract-web-292821",
+    "storage_bucket": "abstract-web-292821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997504369203:android:b5c2bc7bc8b5eda8471946",
+        "android_client_info": {
+          "package_name": "com.example.journalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997504369203-92amjlba259au5hhhnq0mihtiqgfpocs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLUNOWQ6oFt1nBiEU8v-E8glzcHFYisAc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997504369203-92amjlba259au5hhhnq0mihtiqgfpocs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

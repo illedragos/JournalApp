@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <ProgressBar
+        android:id="@+id/id_loginProgress"
+        style="?android:attr/progressBarStyleLarge"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </ProgressBar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/id_Liniar_Layout_emailLoginForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <AutoCompleteTextView
+            android:id="@+id/id_email"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </AutoCompleteTextView>
+
+        <EditText
+            android:layout_marginTop="16dp"
+            android:id="@+id/id_password"
+            android:hint="Password"
+            android:maxLines="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+
+        <Button
+            android:id="@+id/id_emailSignInButton"
+            android:textColor="@color/black"
+            android:text="Login"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Button>
+        <TextView
+            android:id="@+id/id_or_text"
+            android:textStyle="bold"
+            android:text="or"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></TextView>
+
+        <Button
+            android:id="@+id/id_createAccountButton"
+            android:textColor="@color/black"
+            android:text="Create Account"
+            android:background="@android:color/transparent"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>
